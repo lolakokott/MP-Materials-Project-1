@@ -18,15 +18,15 @@ Model: project1_model.py
 - Expected effect on investment recommendation: Better profitability means a better valuation.
 
 ## Precommit Evidence
-- Timestamp:
-- Git commit ID:
-
+- Timestamp: 2026-10-18 5:10:19 PM EDT
+- Git commit ID: 78527ef
+git add locked_changed_input.md
 ---
 
 ## Actual Results (complete AFTER running)
-- Actual change in operating income:
-- Actual change in FCFF:
-- Accounting/liquidity checks:
-- Actual effect on investment recommendation:
-- Did the results match my prediction?
-- Explanation of any unexpected results:
+- Actual change in operating income: Increased by $2.30M in 2026 and $3.90M in 2030.
+- Actual change in FCFF: Increased by $4.35M in 2026 and $4.26M in 2030.
+- Cash and financing: Cash improved through 2029. In 2030, ending cash remained unchanged, but required revolver borrowing decreased by $18.97M.
+- Accounting/liquidity checks: PASS
+- Did the results match my prediction? Yes
+- Explanation of any unexpected results: There were no significant unexpected results. Higher gross margins improve profitability and free cash flow. By 2030, MP Materials needs additional financing, so the extra cash generated reduces borrowing rather than increasing its ending cash balance.
