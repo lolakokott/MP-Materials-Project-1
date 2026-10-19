@@ -1,19 +1,3 @@
-"""Lab 10: MP Materials through the Lab 09 engine (USD millions).
-
-Run: python3 mp_proforma.py
-Operating judgments: lab10.md, Forecast Assumptions.
-Opening history: MP-research/mp-10k2026.pdf, PDF pp. 124 and 173.
-Revolver capacity: same filing, PDF p. 102. Shares: PDF p. 124.
-
-This is a simplified classroom model, not a complete MP valuation. It retains
-Lab 09's structure; it does not separately forecast PPA income, customer advances,
-non-PP&E amortization, preferred conversion, or contractual covenant tests.
-NdPr volume is a documented operating KPI, not a second revenue multiplier.
-Missing nonoperating settings retain explicit Lab 09 classroom defaults below.
-Cash includes short-term investments. Preferred stock is a fixed separate claim.
-Financing failures stop valuation; negative FCFE is retained in the statements.
-"""
-
 import math
 from copy import deepcopy
 
