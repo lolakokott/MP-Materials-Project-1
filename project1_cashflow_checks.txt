@@ -1,0 +1,7 @@
+MP MATERIALS — CASH FLOW RECONCILIATION
+FY2026: cash reconciliation gap = $0.000000M
+FY2027: cash reconciliation gap = $0.000000M
+FY2028: cash reconciliation gap = $-0.000000M
+FY2029: cash reconciliation gap = $0.000000M
+FY2030: cash reconciliation gap = $0.000000M
+PASS — All five years reconcile.

@@ -1,0 +1,231 @@
+Cold run date: Sun Oct 18 17:58:10 EDT 2026
+Python 3.13.15
+MP Materials — simplified Lab 10 scenario; assumptions in lab10.md.
+Retained Lab 09 rate and liquidity settings are classroom judgments.
+Gross profit is a pre-DD&A proxy; floor-plan financing is not applicable.
+
+COMPANY-SPECIFIC OPERATING LINE (metric tons of NdPr oxide equivalent)
+                                           FY2026E       FY2027E       FY2028E       FY2029E       FY2030E
+NdPr sales volume                          2,500.0       3,000.0       3,500.0       4,000.0       4,500.0
+NdPr volume replaces the same-store concept; revenue still grows by 10%.
+
+INCOME STATEMENT (USD millions)
+                                           FY2026E       FY2027E       FY2028E       FY2029E       FY2030E
+Revenue                                      230.0         270.0         310.0         350.0         390.0
+Cost of sales, excluding DD&A               -197.6        -231.9        -266.3        -300.6        -335.0
+Gross profit proxy, before DD&A               32.4          38.1          43.7          49.3          55.0
+SG&A                                        -112.1        -115.4        -118.9        -122.5        -126.1
+Depreciation                                 -76.2        -102.5        -108.3        -113.8        -119.0
+Impairment                                     0.0           0.0           0.0           0.0           0.0
+Operating income                            -155.8        -179.9        -183.5        -186.9        -190.1
+Interest                                     -55.7         -55.7         -55.7         -55.7         -55.7
+Pretax income                               -211.4        -235.5        -239.1        -242.6        -245.8
+Tax                                            0.0           0.0           0.0           0.0           0.0
+Net income                                  -211.4        -235.5        -239.1        -242.6        -245.8
+
+BALANCE SHEET (USD millions)
+                                           FY2026E       FY2027E       FY2028E       FY2029E       FY2030E
+Cash                                       1,140.6         769.8         401.1          34.6          25.0
+Inventory                                    175.9         206.5         237.1         267.7         298.3
+PP&E                                       1,843.7       1,948.0       2,046.6       2,139.7       2,227.7
+Other assets                                 492.5         492.9         493.2         493.5         493.8
+Total assets                               3,652.7       3,417.2       3,178.0       2,935.5       3,044.8
+Floor plan                                     0.0           0.0           0.0           0.0           0.0
+Term debt                                  1,023.0       1,023.0       1,023.0       1,023.0       1,323.0
+Revolver                                       0.0           0.0           0.0           0.0          55.0
+Other liabilities                            448.8         448.8         448.8         448.8         448.8
+Total liabilities                          1,471.8       1,471.8       1,471.8       1,471.8       1,826.8
+Redeemable preferred stock                   413.6         413.6         413.6         413.6         413.6
+Common equity                              1,767.3       1,531.8       1,292.6       1,050.1         804.3
+Liabilities + preferred + equity           3,652.7       3,417.2       3,178.0       2,935.5       3,044.8
+
+CASH FLOW (USD millions)
+                                           FY2026E       FY2027E       FY2028E       FY2029E       FY2030E
+Net income                                  -211.4        -235.5        -239.1        -242.6        -245.8
+Depreciation addback                          76.2         102.5         108.3         113.8         119.0
+Impairment addback                             0.0           0.0           0.0           0.0           0.0
+Capital spending                            -550.0        -206.9        -206.9        -206.9        -206.9
+Inventory increase                            -4.4         -30.6         -30.6         -30.6         -30.6
+Other working capital increase                 0.0          -0.3          -0.3          -0.3          -0.3
+Floor plan increase                            0.0           0.0           0.0           0.0           0.0
+New long-term borrowing                        0.0           0.0           0.0           0.0         300.0
+Term debt repayment                            0.0           0.0           0.0           0.0           0.0
+FCFE                                        -689.7        -370.8        -368.6        -366.6         -64.6
+Unlevered FCFF                              -634.0        -315.2        -313.0        -310.9        -309.0
+Share buyback                                  0.0           0.0           0.0           0.0           0.0
+Revolver draw / (repayment)                    0.0           0.0           0.0           0.0          55.0
+Change in cash                              -689.7        -370.8        -368.6        -366.6          -9.6
+Opening cash                               1,830.3       1,140.6         769.8         401.1          34.6
+Closing cash                               1,140.6         769.8         401.1          34.6          25.0
+
+ANNUAL CHECKS (USD millions)
+                                           FY2026E       FY2027E       FY2028E       FY2029E       FY2030E
+Assets - liabilities - pref - equity           0.0           0.0           0.0           0.0           0.0
+Cash minus minimum                         1,115.6         744.8         376.1           9.6           0.0
+Cash at or above minimum                      PASS          PASS          PASS          PASS          PASS
+FY2026: negative FCFE = $-689.691 million
+FY2027: negative FCFE = $-370.821 million
+FY2028: negative FCFE = $-368.644 million
+FY2029: negative FCFE = $-366.571 million
+FY2030: negative FCFE = $-64.605 million
+No terminal value: terminal FCFE is nonpositive.
+Growing negative cash flow forever is not a meaningful terminal value.
+
+Classroom equity value (USD millions): $0.00
+Share of value after 2030: N/A (zero equity value)
+Value per share (simplified Lab 10): $0.00
+This engine does not separately value preferred or conversion rights.
+
+MP MATERIALS — INTEGRATED FCFF DCF
+---------------------------------
+2026: FCFF = $-634.04M
+2027: FCFF = $-315.17M
+2028: FCFF = $-312.99M
+2029: FCFF = $-310.92M
+2030: FCFF = $-308.95M
+
+WACC: 11.0%
+Terminal growth: 3.0%
+PV of forecast FCFF: $-1,444.02M
+PV of terminal value: $335.24M
+Preliminary enterprise value: $-1,108.79M
+WARNING: Negative modeled enterprise value.
+Review operating assumptions, terminal transition,
+and funding feasibility before deriving equity value.
+
+WACC–TERMINAL GROWTH SENSITIVITY
+Enterprise value, USD millions
+    WACC             2%             3%             4%
+     9%      -1,048.02      -1,020.19        -982.48
+    11%      -1,116.14      -1,108.79      -1,100.16
+    13%      -1,137.87      -1,137.94      -1,138.62
+
+NAMED INVESTMENT SCENARIOS
+USD millions; illustrative assumptions
+
+DOWNSIDE CASE
+Gross margin: 12.1%
+Capex multiplier: 110%
+2030 operating income: $-203.75M
+2030 FCFF: $-338.15M
+Conditional enterprise value: $-1,244.15M
+Accounting and liquidity: FAIL: FY2030: cash minus minimum gap = -3.9662409347
+WARNING: Scenario exceeds modeled financing constraints.
+WARNING: Negative modeled EV; no reliable share value.
+
+BASE CASE
+Gross margin: 14.1%
+Capex multiplier: 100%
+2030 operating income: $-190.11M
+2030 FCFF: $-308.95M
+Conditional enterprise value: $-1,108.79M
+Accounting and liquidity: PASS
+WARNING: Negative modeled EV; no reliable share value.
+
+UPSIDE CASE
+Gross margin: 16.1%
+Capex multiplier: 90%
+2030 operating income: $-176.47M
+2030 FCFF: $-279.75M
+Conditional enterprise value: $-973.43M
+Accounting and liquidity: PASS
+WARNING: Negative modeled EV; no reliable share value.
+
+ENTERPRISE-TO-EQUITY BRIDGE
+December 2025 balance-sheet basis; USD millions
+Enterprise value: $-1,108.79M
+Add cash and investments: $1,830.29M
+Less debt: $1,023.01M
+Less preferred stock: $413.61M
+Residual common equity: $-715.12M
+No defensible positive per-share value from this scenario.
+Funding, dilution, and terminal economics require further review.
+
+REVERSE DCF — MARKET EXPECTATIONS
+Reference share price: $56.77
+Implied enterprise value: $9,674.93M
+Required 2031 EBIT margin: 663.4%
+
+LIMITATIONS:
+Uses 2025 financial balances with a September 2026 price.
+Excludes detailed conversion and dilution adjustments.
+This is a diagnostic expectation, not a validated price target.
+Final-year outputs: FY2030; free cash flow label: FCFE
+
+GROSS_MARGIN (fraction of revenue); changed years: [2026, 2027, 2028, 2029, 2030]
+  lower: inputs={'2026': 0.121, '2027': 0.121, '2028': 0.121, '2029': 0.121, '2030': 0.121}; PASS
+    operating_profit: -197.910535 USD millions; change from base: -7.800000 USD millions
+    fcfe: -74.309354 USD millions; change from base: -9.704765 USD millions
+    value_per_share: N/A USD/share; change from base: N/A USD/share
+    CHECK 2026: PASS; balance gap=+0.000000000; cash headroom=+1106.899346; revolver=0.000000/235.000000 USD millions
+    CHECK 2027: PASS; balance gap=+0.000000000; cash headroom=+729.965718; revolver=0.000000/235.000000 USD millions
+    CHECK 2028: PASS; balance gap=+0.000000000; cash headroom=+354.409251; revolver=0.000000/235.000000 USD millions
+    CHECK 2029: PASS; balance gap=+0.000000000; cash headroom=+0.000000; revolver=19.873940/235.000000 USD millions
+    CHECK 2030: PASS; balance gap=+0.000000000; cash headroom=+0.000000; revolver=94.183295/235.000000 USD millions
+    Valuation: Final-year FCFE is nonpositive: the existing terminal-value condition fails. The legacy zero-value fallback is not reported as a valid valuation. Signed FCFE is retained.
+  base: inputs={'2026': 0.141, '2027': 0.141, '2028': 0.141, '2029': 0.141, '2030': 0.141}; PASS
+    operating_profit: -190.110535 USD millions; change from base: +0.000000 USD millions
+    fcfe: -64.604589 USD millions; change from base: +0.000000 USD millions
+    value_per_share: N/A USD/share; change from base: N/A USD/share
+    CHECK 2026: PASS; balance gap=+0.000000000; cash headroom=+1115.595236; revolver=0.000000/235.000000 USD millions
+    CHECK 2027: PASS; balance gap=+0.000000000; cash headroom=+744.773938; revolver=0.000000/235.000000 USD millions
+    CHECK 2028: PASS; balance gap=+0.000000000; cash headroom=+376.129799; revolver=0.000000/235.000000 USD millions
+    CHECK 2029: PASS; balance gap=+0.000000000; cash headroom=+9.558936; revolver=0.000000/235.000000 USD millions
+    CHECK 2030: PASS; balance gap=+0.000000000; cash headroom=+0.000000; revolver=55.045653/235.000000 USD millions
+    Valuation: Final-year FCFE is nonpositive: the existing terminal-value condition fails. The legacy zero-value fallback is not reported as a valid valuation. Signed FCFE is retained.
+  higher: inputs={'2026': 0.161, '2027': 0.161, '2028': 0.161, '2029': 0.161, '2030': 0.161}; PASS
+    operating_profit: -182.310535 USD millions; change from base: +7.800000 USD millions
+    fcfe: -56.092260 USD millions; change from base: +8.512329 USD millions
+    value_per_share: N/A USD/share; change from base: N/A USD/share
+    CHECK 2026: PASS; balance gap=+0.000000000; cash headroom=+1124.291127; revolver=0.000000/235.000000 USD millions
+    CHECK 2027: PASS; balance gap=+0.000000000; cash headroom=+759.582157; revolver=0.000000/235.000000 USD millions
+    CHECK 2028: PASS; balance gap=+0.000000000; cash headroom=+397.850347; revolver=0.000000/235.000000 USD millions
+    CHECK 2029: PASS; balance gap=+0.000000000; cash headroom=+38.991813; revolver=0.000000/235.000000 USD millions
+    CHECK 2030: PASS; balance gap=+0.000000000; cash headroom=+0.000000; revolver=17.100448/235.000000 USD millions
+    Valuation: Final-year FCFE is nonpositive: the existing terminal-value condition fails. The legacy zero-value fallback is not reported as a valid valuation. Signed FCFE is retained.
+  Span operating_profit: 15.600000 USD millions (3/3 valid results)
+  Span fcfe: 18.217094 USD millions (3/3 valid results)
+  Span value_per_share: N/A USD/share (0/3 valid results)
+
+CAPEX (USD millions); changed years: [2026, 2027, 2028, 2029, 2030]
+  lower: inputs={'2026': 495.0, '2027': 186.2073, '2028': 186.2073, '2029': 186.2073, '2030': 186.2073}; PASS
+    operating_profit: -184.272055 USD millions; change from base: +5.838480 USD millions
+    fcfe: -43.914889 USD millions; change from base: +20.689700 USD millions
+    value_per_share: N/A USD/share; change from base: N/A USD/share
+    CHECK 2026: PASS; balance gap=+0.000000000; cash headroom=+1170.595236; revolver=0.000000/235.000000 USD millions
+    CHECK 2027: PASS; balance gap=+0.000000000; cash headroom=+820.463638; revolver=0.000000/235.000000 USD millions
+    CHECK 2028: PASS; balance gap=+0.000000000; cash headroom=+472.509199; revolver=0.000000/235.000000 USD millions
+    CHECK 2029: PASS; balance gap=+0.000000000; cash headroom=+126.628036; revolver=0.000000/235.000000 USD millions
+    CHECK 2030: PASS; balance gap=+0.000000000; cash headroom=+82.713147; revolver=0.000000/235.000000 USD millions
+    Valuation: Final-year FCFE is nonpositive: the existing terminal-value condition fails. The legacy zero-value fallback is not reported as a valid valuation. Signed FCFE is retained.
+  base: inputs={'2026': 550.0, '2027': 206.897, '2028': 206.897, '2029': 206.897, '2030': 206.897}; PASS
+    operating_profit: -190.110535 USD millions; change from base: +0.000000 USD millions
+    fcfe: -64.604589 USD millions; change from base: +0.000000 USD millions
+    value_per_share: N/A USD/share; change from base: N/A USD/share
+    CHECK 2026: PASS; balance gap=+0.000000000; cash headroom=+1115.595236; revolver=0.000000/235.000000 USD millions
+    CHECK 2027: PASS; balance gap=+0.000000000; cash headroom=+744.773938; revolver=0.000000/235.000000 USD millions
+    CHECK 2028: PASS; balance gap=+0.000000000; cash headroom=+376.129799; revolver=0.000000/235.000000 USD millions
+    CHECK 2029: PASS; balance gap=+0.000000000; cash headroom=+9.558936; revolver=0.000000/235.000000 USD millions
+    CHECK 2030: PASS; balance gap=+0.000000000; cash headroom=+0.000000; revolver=55.045653/235.000000 USD millions
+    Valuation: Final-year FCFE is nonpositive: the existing terminal-value condition fails. The legacy zero-value fallback is not reported as a valid valuation. Signed FCFE is retained.
+  higher: inputs={'2026': 605.0, '2027': 227.5867, '2028': 227.5867, '2029': 227.5867, '2030': 227.5867}; PASS
+    operating_profit: -195.949016 USD millions; change from base: -5.838480 USD millions
+    fcfe: -91.744899 USD millions; change from base: -27.140310 USD millions
+    value_per_share: N/A USD/share; change from base: N/A USD/share
+    CHECK 2026: PASS; balance gap=+0.000000000; cash headroom=+1060.595236; revolver=0.000000/235.000000 USD millions
+    CHECK 2027: PASS; balance gap=+0.000000000; cash headroom=+669.084238; revolver=0.000000/235.000000 USD millions
+    CHECK 2028: PASS; balance gap=+0.000000000; cash headroom=+279.750399; revolver=0.000000/235.000000 USD millions
+    CHECK 2029: PASS; balance gap=+0.000000000; cash headroom=+0.000000; revolver=107.510164/235.000000 USD millions
+    CHECK 2030: PASS; balance gap=-0.000000000; cash headroom=+0.000000; revolver=199.255063/235.000000 USD millions
+    Valuation: Final-year FCFE is nonpositive: the existing terminal-value condition fails. The legacy zero-value fallback is not reported as a valid valuation. Signed FCFE is retained.
+  Span operating_profit: 11.676961 USD millions (3/3 valid results)
+  Span fcfe: 47.830010 USD millions (3/3 valid results)
+  Span value_per_share: N/A USD/share (0/3 valid results)
+
+Base restored and rerun: PASS
+  Base FY2026 accounting/liquidity: PASS
+  Base FY2027 accounting/liquidity: PASS
+  Base FY2028 accounting/liquidity: PASS
+  Base FY2029 accounting/liquidity: PASS
+  Base FY2030 accounting/liquidity: PASS
+COLD RUN PASS

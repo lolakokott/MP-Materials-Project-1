@@ -1,0 +1,75 @@
+
+MP MATERIALS — INTEGRATED FCFF DCF
+---------------------------------
+2026: FCFF = $-634.04M
+2027: FCFF = $-315.17M
+2028: FCFF = $-312.99M
+2029: FCFF = $-310.92M
+2030: FCFF = $-308.95M
+
+WACC: 11.0%
+Terminal growth: 3.0%
+PV of forecast FCFF: $-1,444.02M
+PV of terminal value: $335.24M
+Preliminary enterprise value: $-1,108.79M
+WARNING: Negative modeled enterprise value.
+Review operating assumptions, terminal transition,
+and funding feasibility before deriving equity value.
+
+WACC–TERMINAL GROWTH SENSITIVITY
+Enterprise value, USD millions
+    WACC             2%             3%             4%
+     9%      -1,048.02      -1,020.19        -982.48
+    11%      -1,116.14      -1,108.79      -1,100.16
+    13%      -1,137.87      -1,137.94      -1,138.62
+
+NAMED INVESTMENT SCENARIOS
+USD millions; illustrative assumptions
+
+DOWNSIDE CASE
+Gross margin: 12.1%
+Capex multiplier: 110%
+2030 operating income: $-203.75M
+2030 FCFF: $-338.15M
+Conditional enterprise value: $-1,244.15M
+Accounting and liquidity: FAIL: FY2030: cash minus minimum gap = -3.9662409347
+WARNING: Scenario exceeds modeled financing constraints.
+WARNING: Negative modeled EV; no reliable share value.
+
+BASE CASE
+Gross margin: 14.1%
+Capex multiplier: 100%
+2030 operating income: $-190.11M
+2030 FCFF: $-308.95M
+Conditional enterprise value: $-1,108.79M
+Accounting and liquidity: PASS
+WARNING: Negative modeled EV; no reliable share value.
+
+UPSIDE CASE
+Gross margin: 16.1%
+Capex multiplier: 90%
+2030 operating income: $-176.47M
+2030 FCFF: $-279.75M
+Conditional enterprise value: $-973.43M
+Accounting and liquidity: PASS
+WARNING: Negative modeled EV; no reliable share value.
+
+ENTERPRISE-TO-EQUITY BRIDGE
+December 2025 balance-sheet basis; USD millions
+Enterprise value: $-1,108.79M
+Add cash and investments: $1,830.29M
+Less debt: $1,023.01M
+Less preferred stock: $413.61M
+Residual common equity: $-715.12M
+No defensible positive per-share value from this scenario.
+Funding, dilution, and terminal economics require further review.
+
+REVERSE DCF — MARKET EXPECTATIONS
+Reference share price: $56.77
+Implied enterprise value: $9,674.93M
+Required 2031 EBIT margin: 663.4%
+
+LIMITATIONS:
+Uses 2025 financial balances with a September 2026 price.
+Excludes detailed conversion and dilution adjustments.
+This is a diagnostic expectation, not a validated price target.
