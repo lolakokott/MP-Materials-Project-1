@@ -26,6 +26,15 @@ python3 project1_sensitivity.py
 
 These programs generate financial projections, discounted cash flow calculations, valuation sensitivities, and operating scenarios.
 
+### Interactive Streamlit Application
+
+The project also includes an interactive application for adjusting assumptions, reviewing valuation results, and testing model validation checks.
+
+To launch the application, install Streamlit if needed:
+
+```bash
+python3 -m pip install streamlit
+
 ## Main Files
 
 | File | Purpose |
@@ -42,6 +51,7 @@ These programs generate financial projections, discounted cash flow calculations
 | `project1_cashflow_checks.txt` | Cash flow reconciliation results |
 | `project1_cold_run.txt` | Fresh-environment execution log |
 | `validation_abg.txt` | Original known-answer training-case output |
+| project1_app.py | Interactive Streamlit valuation and validation application |
 
 ## Valuation Results
 
