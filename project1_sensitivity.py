@@ -1,10 +1,3 @@
-"""Lab 11 one-at-a-time sensitivities for the unchanged Lab 10 model.
-
-Usage: python3 mp_sensitivity.py
-Selected ranges affect 2026-2030: gross margin 12.10%/14.10%/16.10%,
-and capex 90%/100%/110% of the existing base path (USD millions).
-All sensitivity results are printed directly in the terminal.
-"""
 
 from copy import deepcopy
 from decimal import Decimal
